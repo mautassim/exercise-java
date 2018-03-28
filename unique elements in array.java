@@ -1,5 +1,5 @@
 import java.util.Scanner;
-puplic class unique_elements{
+public class unique_elements{
 public static void main(String [] args){
 
 Scanner input = new Scanner(System.in);
