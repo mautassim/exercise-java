@@ -18,22 +18,20 @@ for(int i =0 ; i<arrat.length ; i++){
 
 System.out.print(array[i] + " ");
 System.out.println();
-
+}
 ------------------------------------------------------------------------------------------------
 
-for(int i = array.length -1 ; i> intexposition ; i--){
+for(int i = array.length -1 ; i> intex_position ; i--){
 
 array[i] = array[i - 1];
 
 }
 
-array[intexposition] = newelement;
+array[intex_position] = newelement;
 
 for(int i = 0 ; i<array.length ; i++)
 System.out.print(array[i] + " ");
 System.out.println();
-
-}
 
 }
 
